@@ -19,12 +19,12 @@ C++ and Python.
 
 Below is a table listing the solved problems along with their implementations and difficulty levels:
 
-| #   | Question Title    | Implementation                                                         | Difficulty |
-| --- | ----------------- | ---------------------------------------------------------------------- | ---------- |
-| 9   | Palindrome        | [C++](./Easy/Palindrome.cpp), [Python](./Easy/Palindrome.py)           | Easy       |
-| 3   | Longest Substring | [Python](./Medium/LongestSubstring.py)                                 | Medium     |
-| 2   | Add Two Numbers   | [C++](./Medium/AddTwoNumbers.cpp), [Python](./Medium/AddTwoNumbers.py) | Medium     |
-| 1   | Two Sum           | [C++](./Easy/TwoSum.cpp), [Python](./Easy/TwoSum.py)                   | Easy       |
+| #   | Question Title                                 | Implementation                                                         | Difficulty |
+| --- | ---------------------------------------------- | ---------------------------------------------------------------------- | ---------- |
+| 9   | Palindrome Number                              | [C++](./Easy/Palindrome.cpp), [Python](./Easy/Palindrome.py)           | Easy       |
+| 3   | Longest Substring Without Repeating Characters | [Python](./Medium/LongestSubstring.py)                                 | Medium     |
+| 2   | Add Two Numbers                                | [C++](./Medium/AddTwoNumbers.cpp), [Python](./Medium/AddTwoNumbers.py) | Medium     |
+| 1   | Two Sum                                        | [C++](./Easy/TwoSum.cpp), [Python](./Easy/TwoSum.py)                   | Easy       |
 
 ## Usage
 
