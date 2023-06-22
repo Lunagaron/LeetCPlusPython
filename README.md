@@ -21,17 +21,17 @@ Below is a table listing the solved problems along with their implementations an
 
 | #    | Question Title                                 | Implementation                                                         | Difficulty |
 | ---- | ---------------------------------------------- | ---------------------------------------------------------------------- | ---------- |
-| 2439 | Minimize Maximum of Array                      | [Python](./)                                                           | Medium     |
-| 2405 | Optimal Partition of String                    | [Python](./)                                                           | Medium     |
-| 2101 | Detonate the Maximum Bombs                     | [Python](./)                                                           | Medium     |
-| 1480 | Running Sum of 1d Array                        | [Python](./)                                                           | Easy       |
-| 881  | Boats to Save People                           | [Python](./)                                                           | Medium     |
-| 724  | Find Pivot Index                               | [Python](./)                                                           | Easy       |
-| 704  | Binary Search                                  | [Python](./)                                                           | Easy       |
-| 392  | Is Subsequence                                 | [Python](./)                                                           | Easy       |
-| 205  | Isomorphic Strings                             | [Python](./)                                                           | Medium     |
-| 102  | Binary Tree Level Order Traversal              | [Python](./)                                                           | Medium     |
-| 21   | Merge Two Sorted Lists                         | [Python](./)                                                           | Easy       |
+| 2439 | Minimize Maximum of Array                      | [Python](./Medium/MinimizeMaxofArray.py)                               | Medium     |
+| 2405 | Optimal Partition of String                    | [Python](./Medium/OptimalPartitionofStrings.py)                        | Medium     |
+| 2101 | Detonate the Maximum Bombs                     | [Python](./Medium/DetonateMaxBombs.py)                                 | Medium     |
+| 1480 | Running Sum of 1d Array                        | [Python](./Easy/RunningSumofOneDArray.py)                              | Easy       |
+| 881  | Boats to Save People                           | [Python](./Medium/BoatstoSavePeople.py)                                | Medium     |
+| 724  | Find Pivot Index                               | [Python](./Easy/FindPivotIndex.py)                                     | Easy       |
+| 704  | Binary Search                                  | [Python](./Easy/BinarySearch.py)                                       | Easy       |
+| 392  | Is Subsequence                                 | [Python](./Easy/IsSubsequence.py)                                      | Easy       |
+| 205  | Isomorphic Strings                             | [Python](./Easy/IsomorphicStrings.py)                                  | Medium     |
+| 102  | Binary Tree Level Order Traversal              | [Python](./Medium/BinaryTreeLevelOrderTraversal.py)                    | Medium     |
+| 21   | Merge Two Sorted Lists                         | [Python](./Easy/MergeTwoSortedLists.py)                                | Easy       |
 | 9    | Palindrome Number                              | [C++](./Easy/Palindrome.cpp), [Python](./Easy/Palindrome.py)           | Easy       |
 | 3    | Longest Substring Without Repeating Characters | [Python](./Medium/LongestSubstring.py)                                 | Medium     |
 | 2    | Add Two Numbers                                | [C++](./Medium/AddTwoNumbers.cpp), [Python](./Medium/AddTwoNumbers.py) | Medium     |
