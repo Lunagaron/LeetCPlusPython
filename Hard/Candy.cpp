@@ -18,5 +18,28 @@
 
 class Solution {
 public:
-  int candy(vector<int> &ratings) {}
+  // A forward and backward pass of the entire kids array to make sure all kids
+  // have the right amount of candies. The forward pass ensures each kid with a
+  // higher rating has more candy, and the backwards pass ensures the opposite.
+  // As each pass loops through the entire vector, we have O(2n). Time
+  // Complexity O(n).
+  int candy(vector<int> &ratings) {
+    int size = ratings.size();
+    // Create a candies vector of size "size" all initialised to 1
+    vector<int> candies(size, 1);
+    // Forward pass of the candies array
+    for (int i = 1; i < size; i++) {
+      if (ratings[i - 1] < ratings[i]) {
+        candies[i] = candies[i - 1] + 1;
+      }
+    }
+    // Backward pass of the candies array to fix up candies
+    for (int i = size - 2; i >= 0; i--) {
+      if (ratings[i] > ratings[i + 1]) {
+        candies[i] = max(candies[i], candies[i + 1] + 1);
+      }
+    }
+    // Return sum of vector candies
+    return std::accumulate(candies.begin(), candies.end(), 0);
+  }
 };

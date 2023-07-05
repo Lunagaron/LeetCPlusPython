@@ -12,7 +12,7 @@
  of nums.
 
   Do not allocate extra space for another array. You must do this by modifying
- the input array in-place with O(1) extra memory.
+  the input array in-place with O(1) extra memory.
 
  */
 
