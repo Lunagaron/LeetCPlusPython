@@ -6,7 +6,6 @@ But its mostly just C + Plus...
 
 - [Introduction](#introduction)
 - [Problem List](#problem-list)
-- [Usage](#usage)
 
 ## Introduction
 
@@ -42,7 +41,3 @@ Below is a table listing the solved problems along with their implementations an
 | [3](https://leetcode.com/problems/longest-substring-without-repeating-characters/)                                        | Longest Substring Without Repeating Characters | [C++](./Medium/LongestSubstring.cpp), [Python](./Medium/LongestSubstring.py)   | Medium     |
 | [2](https://leetcode.com/problems/add-two-numbers/)                                                                       | Add Two Numbers                                | [C++](./Medium/AddTwoNumbers.cpp), [Python](./Medium/AddTwoNumbers.py)         | Medium     |
 | [1](https://leetcode.com/problems/two-sum/)                                                                               | Two Sum                                        | [C++](./Easy/TwoSum.cpp), [Python](./Easy/TwoSum.py)                           | Easy       |
-
-## Usage
-
-Each problem has separate files for the C++ and Python implementations, ordered by their provided difficulty rating.
