@@ -1,20 +1,16 @@
-# LeetCode
+# LeetCPlusPython
 
-This repository contains my solutions to LeetCode problems, implemented in either C++, Python, or
-both.
-
-[Link to Profile](https://leetcode.com/Lunagaron/)
+But its mostly just C + Plus...
 
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Problem List](#problem-list)
 - [Usage](#usage)
-- [License](#license)
 
 ## Introduction
 
-🚀 This repository serves as a showcase of my solutions to various **LeetCode** problems, implemented in
+🚀 Storage of my solutions to various **LeetCode** problems, implemented in
 **C++** and **Python**.
 
 ## Problem List
@@ -49,10 +45,4 @@ Below is a table listing the solved problems along with their implementations an
 
 ## Usage
 
-You can explore the solutions by clicking on the links in the "Implementation" column of the table. Each problem has
-separate files for the C++ and Python implementations, ordered by their provided difficulty rating.
-
-## License
-
-This repository is licensed under the [MIT License](LICENSE). Feel free to use this repository as a reference or to
-contribute your own solutions. Any suggestions or improvements are highly appreciated.
+Each problem has separate files for the C++ and Python implementations, ordered by their provided difficulty rating.

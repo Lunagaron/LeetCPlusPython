@@ -42,4 +42,8 @@ public:
     // Return sum of vector candies
     return std::accumulate(candies.begin(), candies.end(), 0);
   }
+
+  // An optimised approach which only involves performing a single pass through
+  // the ratings vector.
+  int candy(vector<int> &ratings) {}
 };
