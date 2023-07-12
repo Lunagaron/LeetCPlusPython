@@ -1,7 +1,5 @@
 # LeetCPlusPython
 
-But its mostly just C + Plus...
-
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -10,7 +8,7 @@ But its mostly just C + Plus...
 ## Introduction
 
 🚀 Storage of my solutions to various **LeetCode** problems, implemented in
-**C++** and **Python**.
+**C++** and **Python**. But its mostly cpp . . .
 
 ## Problem List
 
@@ -25,6 +23,7 @@ Below is a table listing the solved problems along with their implementations an
 | 881                                                                                                                       | Boats to Save People                           | [Python](./Medium/BoatstoSavePeople.py)                                        | Medium     |
 | 724                                                                                                                       | Find Pivot Index                               | [Python](./Easy/FindPivotIndex.py)                                             | Easy       |
 | 704                                                                                                                       | Binary Search                                  | [Python](./Easy/BinarySearch.py)                                               | Easy       |
+| [516](https://leetcode.com/problems/longest-palindromic-subsequence/)                                                     | Longest Palindromic Subsequence                | [C++](./Medium/LongestPalindromicSubsequence.cpp)                              | Medium     |
 | 392                                                                                                                       | Is Subsequence                                 | [Python](./Easy/IsSubsequence.py)                                              | Easy       |
 | 205                                                                                                                       | Isomorphic Strings                             | [Python](./Easy/IsomorphicStrings.py)                                          | Medium     |
 | [189](https://leetcode.com/problems/rotate-array/?envType=study-plan-v2&envId=top-interview-150)                          | Rotate Array                                   | [C++](./Medium/RotateArray.cpp)                                                | Medium     |
@@ -38,6 +37,7 @@ Below is a table listing the solved problems along with their implementations an
 | [26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/?envType=study-plan-v2&envId=top-interview-150)    | Remove Duplicates from Sorted Array            | [C++](./Easy/RemoveDuplicatesFromSortedArray.cpp)                              | Easy       |
 | [21](https://leetcode.com/problems/merge-two-sorted-lists/)                                                               | Merge Two Sorted Lists                         | [C++](./Easy/MergeTwoSortedLists.cpp), [Python](./Easy/MergeTwoSortedLists.py) | Easy       |
 | [9](https://leetcode.com/problems/palindrome-number/)                                                                     | Palindrome Number                              | [C++](./Easy/Palindrome.cpp), [Python](./Easy/Palindrome.py)                   | Easy       |
+| [5](https://leetcode.com/problems/longest-palindromic-substring/)                                                         | Longest Palindromic Substring                  | [C++](./Medium/LongestPalindromicSubstring.cpp)                                | Medium     |
 | [3](https://leetcode.com/problems/longest-substring-without-repeating-characters/)                                        | Longest Substring Without Repeating Characters | [C++](./Medium/LongestSubstring.cpp), [Python](./Medium/LongestSubstring.py)   | Medium     |
 | [2](https://leetcode.com/problems/add-two-numbers/)                                                                       | Add Two Numbers                                | [C++](./Medium/AddTwoNumbers.cpp), [Python](./Medium/AddTwoNumbers.py)         | Medium     |
 | [1](https://leetcode.com/problems/two-sum/)                                                                               | Two Sum                                        | [C++](./Easy/TwoSum.cpp), [Python](./Easy/TwoSum.py)                           | Easy       |
