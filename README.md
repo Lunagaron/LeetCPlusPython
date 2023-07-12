@@ -1,12 +1,5 @@
 # LeetCPlusPython
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Problem List](#problem-list)
-
-## Introduction
-
 🚀 Storage of my solutions to various **LeetCode** problems, implemented in
 **C++** and **Python**. But its mostly cpp . . .
 
@@ -25,6 +18,7 @@ Below is a table listing the solved problems along with their implementations an
 | 704                                                                                                                       | Binary Search                                  | [Python](./Easy/BinarySearch.py)                                               | Easy       |
 | [516](https://leetcode.com/problems/longest-palindromic-subsequence/)                                                     | Longest Palindromic Subsequence                | [C++](./Medium/LongestPalindromicSubsequence.cpp)                              | Medium     |
 | 392                                                                                                                       | Is Subsequence                                 | [Python](./Easy/IsSubsequence.py)                                              | Easy       |
+| [217](https://leetcode.com/problems/contains-duplicate/)                                                                  | Contains Duplicate                             | [C++](./Easy/ContainsDuplicate.cpp)                                            | Easy       |
 | 205                                                                                                                       | Isomorphic Strings                             | [Python](./Easy/IsomorphicStrings.py)                                          | Medium     |
 | [189](https://leetcode.com/problems/rotate-array/?envType=study-plan-v2&envId=top-interview-150)                          | Rotate Array                                   | [C++](./Medium/RotateArray.cpp)                                                | Medium     |
 | [169](https://leetcode.com/problems/majority-element/?envType=study-plan-v2&envId=top-interview-150)                      | Majority Element                               | [C++](./Easy/MajorityElement.cpp)                                              | Easy       |

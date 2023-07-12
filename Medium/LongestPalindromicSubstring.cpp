@@ -10,7 +10,8 @@
  */
 
 class Solution {
-  // Implementation of Dynamic Programming for this question.
+  // Implementation of Dynamic Programming for this question. Time Complexity
+  // O(n^2), where n is the length of the string.
 private:
   bool dynamicSolve(vector<vector<bool>> &matrix, int i, int j, string &s) {
     // Identify whether there is a continuation of the longest palindrome
@@ -53,6 +54,13 @@ public:
         }
       }
     }
+    // Print out matrix for debugging
+    //    for (int i = 0; i < n; i++) {
+    //      for (int j = 0; j < n; j++) {
+    //        cout << matrix[i][j] << " ";
+    //      }
+    //      cout << std::endl;
+    //    }
     // Get final index of start of palindrome, and the length it goes for
     int index = maxPalindrome[0];
     int length = maxPalindrome[1] - maxPalindrome[0] + 1;
