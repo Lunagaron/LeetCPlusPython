@@ -7,8 +7,6 @@ But its mostly just cpp . . .
 
 ## Problem List
 
-Below is a table listing the solved problems along with their implementations and difficulty levels:
-
 | #                                                                                                                         | Question Title                                 | Implementation                                                                                    | Difficulty |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|---------------------------------------------------------------------------------------------------|------------|
 | [2439](https://leetcode.com/problems/minimize-maximum-of-array/)                                                          | Minimize Maximum of Array                      | [Python](./Medium/MinimizeMaxofArray.py)                                                          | Medium     |
