@@ -15,6 +15,6 @@ class Solution(object):
                 return True
             if j == list_s[index]:
                 index += 1
-            if index == len(list_s):
-                return True
+        if index == len(list_s):
+            return True
         return False

@@ -1,35 +1,28 @@
-# Definition for a binary tree node.
-# class TreeNode(object):
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
 class Solution(object):
-    def levelOrder(self, root):
+    def isIsomorphic(self, s, t):
         """
-        :type root: TreeNode
-        :rtype: List[List[int]]
+        :type s: str
+        :type t: str
+        :rtype: bool
         """
-        # Handles null input
-        if not root:
-            return []
+        if len(s) != len(t):
+            return False
 
-        # Initialises results array
-        result = []
+        # Dictionary of all seen objects
+        s_to_t = {}
+        t_to_s = {}
 
-        # A queue that only contains the root node
-        queue = [root]
+        for i in range(len(s)):
+            if s[i] in s_to_t:
+                if s_to_t[s[i]] != t[i]:
+                    return False
+            else:
+                s_to_t[s[i]] = t[i]
 
-        while queue:
-            level = []
-            size = len(queue)
-            for i in range(size):
-                node = queue.pop(0)
-                level.append(node.val)
-                if node.left:
-                    queue.append(node.left)
-                if node.right:
-                    queue.append(node.right)
-            result.append(level)
+            if t[i] in t_to_s:
+                if t_to_s[t[i]] != s[i]:
+                    return False
+            else:
+                t_to_s[t[i]] = s[i]
 
-        return result
+        return True
